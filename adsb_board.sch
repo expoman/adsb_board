@@ -79,36 +79,14 @@ Wire Wire Line
 Wire Wire Line
 	2100 2250 1850 2250
 $Comp
-L Mechanical:MountingHole_Pad H4
+L Mechanical:MountingHole_Pad H2
 U 1 1 5C855A62
 P 4950 1500
-F 0 "H4" H 5050 1551 50  0000 L CNN
+F 0 "H2" H 5050 1551 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5050 1460 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 4950 1500 50  0001 C CNN
 F 3 "~" H 4950 1500 50  0001 C CNN
 	1    4950 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 5C855B3E
-P 4850 1500
-F 0 "H3" H 4950 1551 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4950 1460 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 4850 1500 50  0001 C CNN
-F 3 "~" H 4850 1500 50  0001 C CNN
-	1    4850 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2
-U 1 1 5C855CCE
-P 4750 1500
-F 0 "H2" H 4850 1551 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4850 1460 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 4750 1500 50  0001 C CNN
-F 3 "~" H 4750 1500 50  0001 C CNN
-	1    4750 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -123,17 +101,11 @@ F 3 "~" H 4650 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 1600 4750 1600
-Wire Wire Line
-	4850 1600 4950 1600
-Wire Wire Line
-	4850 1600 4750 1600
-Connection ~ 4850 1600
-Connection ~ 4750 1600
-Wire Wire Line
 	4650 1600 4650 3050
 Wire Wire Line
 	4650 3050 3550 3050
 Connection ~ 4650 1600
 Connection ~ 3550 3050
+Wire Wire Line
+	4650 1600 4950 1600
 $EndSCHEMATC
