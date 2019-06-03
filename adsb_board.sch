@@ -17,95 +17,187 @@ $EndDescr
 $Comp
 L Connector:Conn_Coaxial J1
 U 1 1 5C741208
-P 1650 2250
-F 0 "J1" H 1580 2488 50  0000 C CNN
-F 1 "Conn_Coaxial" H 1580 2397 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount" H 1650 2250 50  0001 C CNN
-F 3 " ~" H 1650 2250 50  0001 C CNN
-	1    1650 2250
+P 1650 2300
+F 0 "J1" H 1580 2538 50  0000 C CNN
+F 1 "Conn_Coaxial" H 1580 2447 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount" H 1650 2300 50  0001 C CNN
+F 3 " ~" H 1650 2300 50  0001 C CNN
+	1    1650 2300
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J2
 U 1 1 5C741270
-P 3550 2250
-F 0 "J2" H 3649 2226 50  0000 L CNN
-F 1 "Conn_Coaxial" H 3649 2135 50  0000 L CNN
-F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount" H 3550 2250 50  0001 C CNN
-F 3 " ~" H 3550 2250 50  0001 C CNN
-	1    3550 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5C741346
-P 2400 3300
-F 0 "#PWR0101" H 2400 3050 50  0001 C CNN
-F 1 "GND" H 2405 3127 50  0000 C CNN
-F 2 "" H 2400 3300 50  0001 C CNN
-F 3 "" H 2400 3300 50  0001 C CNN
-	1    2400 3300
+P 8850 2300
+F 0 "J2" H 8949 2276 50  0000 L CNN
+F 1 "Conn_Coaxial" H 8949 2185 50  0000 L CNN
+F 2 "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount" H 8850 2300 50  0001 C CNN
+F 3 " ~" H 8850 2300 50  0001 C CNN
+	1    8850 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 3050 1650 2450
-$Comp
-L Filter:TA1090EC U1
-U 1 1 5C780C94
-P 2500 2250
-F 0 "U1" H 2525 2515 50  0000 C CNN
-F 1 "TA1090EC" H 2525 2424 50  0000 C CNN
-F 2 "Filter:ta1090ec" H 2500 2250 50  0001 C CNN
-F 3 "" H 2500 2250 50  0001 C CNN
-	1    2500 2250
-	1    0    0    -1  
-$EndComp
+	1650 3100 1650 2500
 Wire Wire Line
-	1650 3050 2400 3050
-Wire Wire Line
-	2400 3050 2400 3300
-Wire Wire Line
-	2400 3050 2500 3050
-Wire Wire Line
-	3550 3050 3550 2450
-Connection ~ 2400 3050
-Wire Wire Line
-	3350 2250 2950 2250
-Wire Wire Line
-	2500 2450 2500 3050
-Connection ~ 2500 3050
-Wire Wire Line
-	2500 3050 3550 3050
-Wire Wire Line
-	2100 2250 1850 2250
+	8850 3100 8850 2500
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 5C855A62
-P 4950 1500
-F 0 "H2" H 5050 1551 50  0000 L CNN
-F 1 "MountingHole_Pad" H 5050 1460 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 4950 1500 50  0001 C CNN
-F 3 "~" H 4950 1500 50  0001 C CNN
-	1    4950 1500
+P 9450 1150
+F 0 "H2" H 9550 1201 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9550 1110 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 9450 1150 50  0001 C CNN
+F 3 "~" H 9450 1150 50  0001 C CNN
+	1    9450 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5C855CD5
-P 4650 1500
-F 0 "H1" H 4750 1551 50  0000 L CNN
-F 1 "MountingHole_Pad" H 4750 1460 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 4650 1500 50  0001 C CNN
-F 3 "~" H 4650 1500 50  0001 C CNN
-	1    4650 1500
+P 9150 1150
+F 0 "H1" H 9250 1201 50  0000 L CNN
+F 1 "MountingHole_Pad" H 9250 1110 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 9150 1150 50  0001 C CNN
+F 3 "~" H 9150 1150 50  0001 C CNN
+	1    9150 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 1600 4650 3050
+	9450 1250 9450 1450
 Wire Wire Line
-	4650 3050 3550 3050
-Connection ~ 4650 1600
-Connection ~ 3550 3050
+	8650 1450 9150 1450
 Wire Wire Line
-	4650 1600 4950 1600
+	9150 1250 9150 1450
+Connection ~ 9150 1450
+Wire Wire Line
+	9150 1450 9450 1450
+Text Label 8650 1450 0    50   ~ 0
+GND
+Text Label 1900 2300 0    50   ~ 0
+INPUT
+Text Label 8250 2300 0    50   ~ 0
+OUTPUT
+Text Label 1650 3100 1    50   ~ 0
+GND
+Text Label 8850 3100 1    50   ~ 0
+GND
+$Comp
+L Filter:TA1090EC U1
+U 1 1 5CF177D1
+P 3350 2300
+F 0 "U1" H 3375 2615 50  0000 C CNN
+F 1 "TA1090EC" H 3375 2524 50  0000 C CNN
+F 2 "Filter:ta1090ec" H 3350 2300 50  0001 C CNN
+F 3 "" H 3350 2300 50  0001 C CNN
+	1    3350 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2300 2950 2300
+Wire Wire Line
+	3350 2600 3350 3050
+$Comp
+L Filter:TA1090EC U2
+U 1 1 5CF17B43
+P 7500 2300
+F 0 "U2" H 7525 2615 50  0000 C CNN
+F 1 "TA1090EC" H 7525 2524 50  0000 C CNN
+F 2 "Filter:ta1090ec" H 7500 2300 50  0001 C CNN
+F 3 "" H 7500 2300 50  0001 C CNN
+	1    7500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 2300 8650 2300
+Wire Wire Line
+	7500 2600 7500 3150
+Text Label 7500 3150 1    50   ~ 0
+GND
+Text Label 3350 3050 1    50   ~ 0
+GND
+$Comp
+L RF_Amplifier:PSA4-5043+ U?
+U 1 1 5CF79F8F
+P 5300 2300
+F 0 "U?" H 5300 2765 50  0000 C CNN
+F 1 "PSA4-5043+" H 5300 2674 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-343_SC-70-4_Handsoldering" H 5250 2300 50  0001 C CNN
+F 3 "" H 5250 2300 50  0001 C CNN
+	1    5300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5CF7A254
+P 4400 2300
+F 0 "C?" V 4085 2300 50  0000 C CNN
+F 1 "C" V 4176 2300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4400 2300 50  0001 C CNN
+F 3 "~" H 4400 2300 50  0001 C CNN
+	1    4400 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5CF7A303
+P 6650 2300
+F 0 "C?" V 6335 2300 50  0000 C CNN
+F 1 "C" V 6426 2300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6650 2300 50  0001 C CNN
+F 3 "~" H 6650 2300 50  0001 C CNN
+	1    6650 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:INDUCTOR L?
+U 1 1 5CF7A3CE
+P 6050 1700
+F 0 "L?" V 6004 1778 50  0000 L CNN
+F 1 "INDUCTOR" V 6095 1778 50  0000 L CNN
+F 2 "" H 6050 1700 50  0001 C CNN
+F 3 "~" H 6050 1700 50  0001 C CNN
+	1    6050 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L pspice:C C?
+U 1 1 5CF7A472
+P 7000 1300
+F 0 "C?" H 7178 1346 50  0000 L CNN
+F 1 "1uF" H 7178 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 1300 50  0001 C CNN
+F 3 "~" H 7000 1300 50  0001 C CNN
+	1    7000 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2300 4150 2300
+Wire Wire Line
+	4650 2300 4900 2300
+Wire Wire Line
+	5700 2300 6050 2300
+Wire Wire Line
+	6900 2300 7100 2300
+Wire Wire Line
+	6050 1950 6050 2300
+Connection ~ 6050 2300
+Wire Wire Line
+	6050 2300 6400 2300
+Wire Wire Line
+	6050 1450 6050 1050
+Wire Wire Line
+	6050 1050 7000 1050
+Wire Wire Line
+	7000 1050 7700 1050
+Connection ~ 7000 1050
+Wire Wire Line
+	7000 1550 7000 1750
+Text Label 7000 1750 1    50   ~ 0
+GND
+Text Label 7700 1050 2    50   ~ 0
+VCC
+Wire Wire Line
+	5300 2650 5300 3000
+Text Label 5300 3000 1    50   ~ 0
+GND
 $EndSCHEMATC
