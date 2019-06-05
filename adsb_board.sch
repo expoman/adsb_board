@@ -199,7 +199,7 @@ Connection ~ 7450 1050
 Wire Wire Line
 	7450 1050 7700 1050
 Wire Wire Line
-	6050 1050 7450 1050
+	6050 1050 6800 1050
 $Comp
 L pspice:C C3
 U 1 1 5CF53B17
@@ -241,4 +241,9 @@ Text Label 5850 4300 0    50   ~ 0
 GND
 Text Label 6900 3550 2    50   ~ 0
 VCC
+Wire Wire Line
+	7450 1050 6800 1050
+Connection ~ 6800 1050
+Wire Wire Line
+	6800 1050 7450 1050
 $EndSCHEMATC
