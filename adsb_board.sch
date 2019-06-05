@@ -239,11 +239,22 @@ Wire Wire Line
 	6600 3550 6900 3550
 Text Label 5850 4300 0    50   ~ 0
 GND
-Text Label 6900 3550 2    50   ~ 0
-VCC
 Wire Wire Line
 	7450 1050 6800 1050
 Connection ~ 6800 1050
+$Comp
+L Device:Ferrite_Bead FB1
+U 1 1 5CF7E033
+P 7050 3550
+F 0 "FB1" V 6776 3550 50  0000 C CNN
+F 1 "Ferrite_Bead" V 6867 3550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6980 3550 50  0001 C CNN
+F 3 "~" H 7050 3550 50  0001 C CNN
+	1    7050 3550
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	6800 1050 7450 1050
+	7200 3550 7550 3550
+Text Label 7550 3550 2    50   ~ 0
+VCC
 $EndSCHEMATC
