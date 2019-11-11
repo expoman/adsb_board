@@ -1,6 +1,10 @@
 # adsb_board
 small PCB with filter and lna for adsb-signals
 
+# used components
+
+as filter two ta1090ec are used
+
 # results
 
 the assembled board was tested with an vector-network analyzer
